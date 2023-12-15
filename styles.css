@@ -14,6 +14,7 @@ body {
 .home-page {
     background-color: #1f2937 ;
     width: 100%;
+    height: auto;
 }
 
 header {
@@ -60,20 +61,35 @@ button {
 
 .content {
     display: flex;
-    gap: 12px;
-    justify-content: space-between;
+    gap: 240px;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-right: 160px;
+    margin-left: 160px;
+    flex-wrap: wrap;
+    margin-bottom: 140px;
 }
 
 .hero-image {
-    width: 550px;
-    max-width: 550px;
-    min-width: 550px;
+    width: 600px;
     height: 250px;
 }
 
 .hero-div {
     margin: 0 24px;
+    width: 500px;
 } 
 
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding-top: 80px;
+}
 
 
+h1 {
+    color: #1f2937;
+}
