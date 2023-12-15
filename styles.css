@@ -9,30 +9,26 @@
 
 body {
     display: flex;
-    background-color: #1f2937;  
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
 }
 
-.page-wrapper {
-    width: 80%;
+.home-page {
+    background-color: #1f2937 ;
+    width: 100%;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
     font-size: 24px;
     color: #f9faf8;
     margin-bottom: 120px;
+    justify-content: space-evenly;
 }
 
 ul {
     display: flex;
     list-style: none;
     align-items: center;
-    gap: 16px;
-    margin: 10px;
+    gap: 26px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -74,7 +70,7 @@ button {
 
 .hero-div {
     margin: 0 24px;
-}
+} 
 
 
 
