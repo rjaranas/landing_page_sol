@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     font-family: Roboto, sans-serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -171,6 +172,8 @@ h1 {
     width: 70%;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #3882f6;
+    color: white;
 }
 
 .action-text-holder {
@@ -178,6 +181,9 @@ h1 {
     flex-direction: column;
     padding: 20px;
     margin-left: 70px;
+}
+.action-text-holder h1 {
+    color: white;
 }
 
 .action-button-holder {
@@ -194,7 +200,7 @@ footer {
     color: white;
     width: 100%;
     background-color: #1f2937 ;
-    padding: 20px;
+    padding: 32px;
     align-items: center;
     justify-content: center;
 }
