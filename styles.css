@@ -158,10 +158,43 @@ h1 {
     width: 100%;
     display: flex;
     background-color: white;
-    justify-content: center;
 }
 
 .action-holder {
+    margin: 10% auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    width: 70%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.action-text-holder {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-left: 70px;
+}
+
+.action-button-holder {
+    margin-right:70px;
+}
+
+.action-button {
+    border-radius: 8px;
+    border:1px solid white;
+}
+
+footer {
+    display: flex;
+    color: white;
+    width: 100%;
+    background-color: #1f2937 ;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
 }
