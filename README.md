@@ -1,9 +1,9 @@
 # landing_page_sol
 
 image sources
-https://www.pexels.com/
-https://pixabay.com/
-https://unsplash.com/
+https://www.pexels.com/<br>
+https://pixabay.com/<br>
+https://unsplash.com/<br>
 
 header logo - https://pixabay.com/vectors/mountain-icon-sign-design-symbol-1849091/
 
