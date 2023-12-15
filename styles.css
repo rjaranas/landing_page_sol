@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     font-family: Roboto, sans-serif;
-    overflow: hidden;
 }
 
 body {
@@ -24,8 +23,9 @@ header {
     margin-bottom: 120px;
     justify-content: space-between;
     padding: 20px;
-    margin-right: 160px;
-    margin-left: 160px;
+    margin-right: 120px;
+    margin-left: 120px;
+    width: 80%;
 }
 
 ul {
@@ -61,13 +61,14 @@ button {
 
 .content {
     display: flex;
-    gap: 240px;
+    gap: 120px;
     justify-content: space-evenly;
     padding: 20px;
-    margin-right: 160px;
-    margin-left: 160px;
+    margin-right: 120px;
+    margin-left: 120px;
     flex-wrap: wrap;
     margin-bottom: 140px;
+    width: 80%;
 }
 
 .hero-image {
@@ -78,6 +79,9 @@ button {
 .hero-div {
     margin: 0 24px;
     width: 500px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
 } 
 
 .information {
@@ -87,9 +91,41 @@ button {
     background-color: white;
     width: 100%;
     padding-top: 80px;
+    flex-direction: column;
+    height: auto;
 }
 
 
 h1 {
     color: #1f2937;
+}
+
+.card-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    width: 90%;
+}
+
+.cards {
+    margin: 40px 120px;
+}
+
+.cards p {
+    font-size: 18px;
+}
+
+.card-text {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.card-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    padding: 10px;
 }
